@@ -1,0 +1,36 @@
+* stepmania-beatmania-skin
+A skin and configuration settings for playing Beatmania IIDX ("bms") stuff in "beat" game mode.
+
+[[file:example.png][Example display]]
+
+This skin is for *Stepmania 5*.
+
+This skin is a copy of the ~zenbuquan~ skin with some modifications to make it more playable:
+- *Notes have consistent colors:* I found quantization coloring made it very hard to know which key(s) to hit. This skin has white notes, black notes, and record scratch notes all colored consistently and distinctly.
+- *Record scratch can be moved to the right side:* In case you're playing it on the right
+- *Receptors are colored just like notes:* This again makes it easier to know what key to hit
+- *Warning time coloring is disabled*
+
+Due to these, it means there are fewer "features" which were provided in the ~zenbuquan~ version. If you want those, I'd recommend taking the ~zenbuquan~ Noteskin and porting over the modifications I've done which you want.
+
+** Installation
+1. Clone the repository into your Stepmania ~NoteSkins~ folder:
+
+~git clone https://github.com/makuto/stepmania-beatmania-skin~
+
+The final path should be something like ~Stepmania/NoteSkins/stepmania-beatmania-skin~.
+
+2. Go to Stepmania's ~Options~ and go into the ~Select Game~ menu. Find ~beat~ and hit enter to select it, then exit
+
+3. Make sure you've created a profile so that your configuration gets saved. Go to ~Profiles~ in Options and create a new profile
+
+4. Open a Beatmania ".bms" song, then double-tap escape to open options. Set the following options:
+   a. *Speed Type:* Set this to ~Constant BPM (C)~. This ensures songs which change the BPM dynamically will still have your desired speed mod
+   b. *Speed Mod:* Set this to something like ~300~ or ~400~. This is personal preference, but I would recommend starting out at 300-400 and adjusting up/down from there. This setting determines how much space is between each note vertically
+   c. *Reverse:* Turn this ~On~. This makes notes come down the screen instead of up, which is how Beatmania normally is
+   d. *Noteskin:* Set this to ~stepmania-beatmania-skin~, which should show up as an option if you installed this repository in your Stepmania ~NoteSkins~ folder
+
+5. You may need to finish a song with these settings (you can fail too) so that they get saved to your Profile preferences. I'm not 100% sure what you need to do; all I know is it kept forgetting mine until I think I finished a song or something
+
+** Work in progress
+Please note that this skin is a work in progress. I intentionally uploaded it as soon as it was playable so that in case I got bored working on tweaks, others could still benefit from it.
