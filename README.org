@@ -1,9 +1,11 @@
 * stepmania-beatmania-skin
 A skin and configuration settings for playing Beatmania IIDX ("bms") stuff in "beat" game mode.
 
-[[file:example.png][Example display]]
+[[file:example.png]]
 
 This skin is for *Stepmania 5*.
+
+I created this skin after being frustrated with Lunatic Rave 2. LR2 didn't work at all in Windows 10, then I couldn't get better resolution than 640x480; additionally, it isn't open source. I moved to Stepmania 5 but couldn't find a working, playable noteskin. This noteskin isn't pretty, but it does make it possible to play through .bms songs.
 
 This skin is a copy of the ~zenbuquan~ skin with some modifications to make it more playable:
 - *Notes have consistent colors:* I found quantization coloring made it very hard to know which key(s) to hit. This skin has white notes, black notes, and record scratch notes all colored consistently and distinctly.
